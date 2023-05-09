@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/ThemeOverlay.Material3"
+    tools:context=".ChooseCountry">
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        style="@style/ThemeOverlay.Material3"
+        android:textSize="30sp"
+        android:fontFamily="@font/aclonica_font"
+        android:text="CHOOSE COUNTRY"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/canada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica_font"
+        android:textSize="22sp"
+        android:layout_alignTop="@id/banner"
+        android:layout_marginTop="50dp"
+        android:text="ca-Canada"
+        android:textStyle="bold" />
+    <CheckBox
+        android:id="@+id/us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica_font"
+        android:textSize="22sp"
+        android:layout_alignTop="@id/canada"
+        android:layout_marginTop="50dp"
+        android:text="us-(United States)"
+        android:textStyle="bold" />
+    <CheckBox
+        android:id="@+id/ind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica_font"
+        android:textSize="22sp"
+        android:layout_alignTop="@id/us"
+        android:layout_marginTop="50dp"
+        android:text="in-(India)"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+<item android:title="Bussiness" android:id="@+id/bussiness" android:icon="@drawable/cooperation"/>
+        <item
+            android:title="Science"
+            android:id="@+id/science"
+            android:icon="@drawable/science" />
+        <item
+            android:title="General"
+            android:id="@+id/general"
+            android:icon="@drawable/ic_action_general" />
+        <item
+            android:title="Country"
+            android:id="@+id/country"
+            android:icon="@drawable/ic_country" />
+    </group>
+</menu>
